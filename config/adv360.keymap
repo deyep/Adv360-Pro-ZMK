@@ -22,7 +22,7 @@
   behaviors {
     #include "macros.dtsi"
     
-    kn: kana_input {
+    kana: kana_input {
         compatible = "zmk,behavior-hold-tap";
         label = "KANA_INPUT";
         #binding-cells = <2>;
@@ -31,6 +31,7 @@
         flavor = "tap-preferred";
         bindings = <&kp>, <&kp>;
     };
+    
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
@@ -52,7 +53,7 @@
       &kp TAB           &kp Q         &kp W           &kp E      &kp R                   &kp T                          &none      &none             &kp Y       &kp U                        &kp I              &kp O     &kp P  &kp MINUS
  &kp CAPSLOCK           &kp A         &kp S           &kp D      &kp F                   &kp G                          &none      &none        &kp C_NEXT                                             &kp C_VOLUME_UP     &none      &none     &kp H   &kp J      &kp K    &kp L  &kp SEMI    &kp SQT
     &kp LSHFT           &kp Z         &kp X           &kp C      &kp V                   &kp B                          &none      &none  &kp C_PLAY_PAUSE       &none                        &none  &kp C_VOLUME_DOWN     &none      &none     &kp N   &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RSHFT
-        &mo 2  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kn LEFT_COMMAND SPACE            &ｋｎ LEFT_ALT DELETE  &kp SPACE     &kp BACKSPACE  &kp RETURN  &kn RIGHT_COMMAND BACKSPACE          &kp GRAVE  &kp LBKT   &kp RBKT  &kp BSLH   &mo 2
+        &mo 2  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT  &kana LEFT_COMMAND SPACE            &ｋana LEFT_ALT DELETE  &kp SPACE     &kp BACKSPACE  &kp RETURN  &kana RIGHT_COMMAND BACKSPACE          &kp GRAVE  &kp LBKT   &kp RBKT  &kp BSLH   &mo 2
             >;
         };
 
