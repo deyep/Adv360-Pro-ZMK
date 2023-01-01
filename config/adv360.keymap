@@ -27,8 +27,8 @@
         label = "KANA_INPUT";
         #binding-cells = <2>;
         flavor = "tap-preferred";
-        tapping-term-ms = <100>;
-        quick-tap-ms = <100>;
+        tapping-term-ms = <120>;
+        quick-tap-ms = <120>;
         global-quick-tap;
         bindings = <&kp>, <&kp>;
     };
