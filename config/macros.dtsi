@@ -1,6 +1,6 @@
-macro_cmd+w: macro_cmd+w{
+macro_close_tab: macro_close_tab{
 compatible = "zmk,behavior-macro";
-label = "macro_cmd+w";
+label = "macro_close_tab";
 #binding-cells = <0>;
 bindings = <&kp LG(W)>;
 };
