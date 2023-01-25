@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-   &kp ESCAPE          &kp N1        &kp N2          &kp N3     &kp N4  &kp N5                     &kp F12                                                                                                                     &mo 2  &kp N6     &kp N7     &kp N8    &kp N9    &kp N0  &kp EQUAL
-      &kp TAB           &kp Q         &kp W           &kp E      &kp R   &kp T                       &none                                                                                                                     &none   &kp Y      &kp U      &kp I     &kp O     &kp P    &kp SQT
- &kp CAPSLOCK           &kp A         &kp S           &kp D      &kp F   &kp G            &macro_close_tab  &kp C_FAST_FORWARD         &kp C_VOLUME_UP                  &kp LEFT_ARROW  &kp RIGHT_ARROW                        &none   &kp H      &kp J      &kp K     &kp L  &kp SEMI  &kp MINUS
-    &kp LSHFT           &kp Z         &kp X           &kp C      &kp V   &kp B                       &none               &none       &kp C_VOLUME_DOWN   &none   &none      &kp DELETE            &none                        &none   &kp N      &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-        &mo 1  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT                           &kp SPACE    &kp LEFT_COMMAND  &mt LEFT_ALT BACKSPACE                       &kp SPACE       &kp RETURN  &mt RIGHT_COMMAND BACKSPACE          &kp GRAVE   &kp LBKT  &kp RBKT  &kp BSLH     &tog 1
+   &kp ESCAPE          &kp N1        &kp N2          &kp N3     &kp N4  &kp N5                           &kp F12                                                                                                                    &mo 2  &kp N6     &kp N7     &kp N8    &kp N9    &kp N0  &kp EQUAL
+      &kp TAB           &kp Q         &kp W           &kp E      &kp R   &kp T                  &kp LEFT_COMMAND                                                                                                        &kp RIGHT_COMMAND   &kp Y      &kp U      &kp I     &kp O     &kp P    &kp SQT
+ &kp CAPSLOCK           &kp A         &kp S           &kp D      &kp F   &kp G                  &macro_close_tab      &kp C_FAST_FORWARD    &kp C_VOLUME_UP                  &kp LEFT_ARROW  &kp RIGHT_ARROW                        &none   &kp H      &kp J      &kp K     &kp L  &kp SEMI  &kp MINUS
+    &kp LSHFT           &kp Z         &kp X           &kp C      &kp V   &kp B                             &none                   &none  &kp C_VOLUME_DOWN   &none   &none     &kp PAGE_UP            &none                        &none   &kp N      &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
+        &mo 1  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT                    &mt LEFT_COMMAND SPACE  &mt LEFT_ALT BACKSPACE         &kp DELETE                   &kp PAGE_DOWN       &kp RETURN  &mt RIGHT_COMMAND BACKSPACE          &kp GRAVE   &kp LBKT  &kp RBKT  &kp BSLH     &tog 1
             >;
         };
 
