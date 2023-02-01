@@ -21,16 +21,7 @@
 / {
   behaviors {
     #include "macros.dtsi"
-    kana: kana_input {
-        compatible = "zmk,behavior-hold-tap";
-        label = "KANA_INPUT";
-        #binding-cells = <2>;
-        flavor = "tap-preferred";
-        tapping-term-ms = <150>;
-        quick-tap-ms = <150>;
-        global-quick-tap;
-        bindings = <&kp>, <&kp>;
-    };
+
     hm: homerow_mods {
         compatible = "zmk,behavior-hold-tap";
         label = "HOMEROW_MODS";
@@ -52,7 +43,7 @@
       &kp TAB           &kp Q         &kp W           &kp E      &kp R   &kp T                  &macro_close_tab                                                                                                    &kp F12   &kp Y      &kp U      &kp I     &kp O     &kp P    &kp SQT
  &kp CAPSLOCK           &kp A         &kp S           &kp D      &kp F   &kp G                     &macro_reload      &kp C_FAST_FORWARD    &kp C_VOLUME_UP                  &kp LEFT_ARROW  &kp RIGHT_ARROW       &kp LEFT   &kp H      &kp J      &kp K     &kp L  &kp SEMI  &kp MINUS
     &kp LSHFT           &kp Z         &kp X           &kp C      &kp V   &kp B                             &none                   &none  &kp C_VOLUME_DOWN   &none   &none      &kp DELETE            &none          &none   &kp N      &kp M  &kp COMMA   &kp DOT  &kp FSLH  &kp RSHFT
-        &mo 1  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW                    &kana LEFT_COMMAND SPACE  &kana LEFT_ALT BACKSPACE          &kp SPACE                       &kp SPACE       &kp RETURN  &kp BACKSPACE         &kp GR AVE   &kp LBKT  &kp RBKT  &kp BSLH     &tog 1
+        &mo 1  &kp LEFT_ARROW  &kp UP_ARROW  &kp DOWN_ARROW  &kp RIGHT                    &mt LEFT_COMMAND SPACE  &mt LEFT_ALT BACKSPACE          &kp SPACE                       &kp SPACE       &kp RETURN  &kp BACKSPACE          &kp GRAVE   &kp LBKT  &kp RBKT  &kp BSLH     &tog 1
             >;
         };
 
