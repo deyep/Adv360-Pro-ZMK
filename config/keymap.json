@@ -35,11 +35,11 @@
               "&trans", "&kp SLASH",  "&kp DOT", "&kp COMMA",   "&kp M",  "&kp N",                      "&trans",           "&trans", "&kp SPACE", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
           "&kp LA(F4)",  "&kp RBKT", "&kp LBKT", "&kp GRAVE", "&kp SQT",                          "&kp LEFT_ALT", "&kp LEFT_COMMAND",    "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans",    "&kp LA",    "&kp LA",    "&kp LA",    "&kp LA", "&kp LA",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",    "&kp LA",    "&kp LA",    "&kp LA",    "&kp LA", "&kp LA",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans", "&kp RA(A)", "&kp RA(S)", "&kp RA(D)", "&kp RA(F)", "&kp LA",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",    "&kp LA",    "&kp LA",    "&kp LA",    "&kp LA", "&kp LA",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",    "&trans",    "&trans",    "&trans",    "&trans",                     "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+       "&trans", "&kp LA(NUMBER_1)", "&kp LA(NUMBER_2)", "&kp LA(NUMBER_3)", "&kp LA(NUMBER_4)", "&kp LA(NUMBER_5)",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",        "&kp LA(Q)",        "&kp LA(W)",        "&kp LA(E)",        "&kp LA(R)",        "&kp LA(T)",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",        "&kp RA(A)",        "&kp RA(S)",        "&kp RA(D)",        "&kp RA(F)",        "&kp LA(G)",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",        "&kp LA(Z)",        "&kp LA(X)",        "&kp LA(C)",        "&kp LA(V)",        "&kp LA(B)",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&trans",           "&trans",           "&trans",           "&trans",           "&trans",                               "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
