@@ -35,11 +35,11 @@
               "&trans", "&kp SLASH",  "&kp DOT", "&kp COMMA",   "&kp M",  "&kp N",                      "&trans",           "&trans", "&kp SPACE", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
           "&kp LA(F4)",  "&kp RBKT", "&kp LBKT", "&kp GRAVE", "&kp SQT",                          "&kp LEFT_ALT", "&kp LEFT_COMMAND",    "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ], [
-       "&trans", "&kp RA(NUMBER_1)", "&kp RA(NUMBER_2)", "&kp RA(NUMBER_3)", "&kp RA(NUMBER_4)", "&kp RA(NUMBER_5)",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",        "&kp RA(Q)",        "&kp RA(W)",        "&kp RA(E)",        "&kp RA(R)",        "&kp RA(T)",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",        "&kp RA(A)",        "&kp RA(S)",        "&kp RA(D)",        "&kp RA(F)",        "&kp RA(G)",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",        "&kp RA(Z)",        "&kp RA(X)",        "&kp RA(C)",        "&kp RA(V)",        "&kp RA(B)",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
-       "&trans",           "&trans",           "&trans",           "&trans",           "&trans",                               "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
+                     "&trans", "&kp RA(NUMBER_1)", "&kp RA(NUMBER_2)",   "&kp RA(NUMBER_3)", "&kp RA(NUMBER_4)", "&kp RA(NUMBER_5)",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+                     "&trans",        "&kp RA(Q)",        "&kp RA(W)",          "&kp RA(E)",        "&kp RA(R)",        "&kp RA(T)",           "&trans",                                                             "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+       "&kp RA(LEFT_CONTROL)",        "&kp RA(A)",        "&kp RA(S)",          "&kp RA(D)",        "&kp RA(F)",        "&kp RA(G)",           "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+                     "&trans",        "&kp RA(Z)",        "&kp RA(X)",          "&kp RA(C)",        "&kp RA(V)",        "&kp RA(B)",           "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans", "&trans",
+                     "&trans", "&kp RA(UP_ARROW)",           "&trans", "&kp RA(DOWN_ARROW)",           "&trans",                               "&trans", "&trans", "&trans",                     "&trans", "&trans", "&trans",           "&trans", "&trans", "&trans", "&trans", "&trans"
     ]
   ]
 }
