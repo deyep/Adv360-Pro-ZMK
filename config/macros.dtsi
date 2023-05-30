@@ -2,7 +2,7 @@ macro_delay_key: macro_delay_key{
 compatible = "zmk,behavior-macro";
 label = "macro_delay_key";
 #binding-cells = <0>;
-bindings = <&sk ESCAPE>, <&kp ESCAPE>;
+bindings = <&kp ESCAPE>, <&macro_wait_time 3000>, <&kp ESCAPE>;
 };
 macro_reload: macro_reload{
 compatible = "zmk,behavior-macro";
